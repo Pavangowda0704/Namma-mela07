@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Stage Banner -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="🎭  ರಂಗ ಮಂಚ  🎭"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@color/colorStage"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Legend -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="12dp">
+        <View android:layout_width="20dp" android:layout_height="20dp"
+            android:background="@drawable/bg_seat_available" android:layout_marginEnd="6dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="ಲಭ್ಯ" android:textColor="@color/colorTextSecondary"
+            android:textSize="12sp" android:layout_marginEnd="20dp"/>
+        <View android:layout_width="20dp" android:layout_height="20dp"
+            android:background="@drawable/bg_seat_booked" android:layout_marginEnd="6dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ" android:textColor="@color/colorTextSecondary"
+            android:textSize="12sp"/>
+    </LinearLayout>
+
+    <!-- Available count -->
+    <TextView
+        android:id="@+id/tvAvailable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ಲಭ್ಯ ಆಸನಗಳು: 30 / 30"
+        android:textColor="@color/colorGold"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="12dp"/>
+
+    <!-- Seat Grid -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <GridLayout
+            android:id="@+id/seatGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="6"
+            android:rowCount="5"
+            android:useDefaultMargins="true"
+            android:padding="8dp"/>
+    </ScrollView>
+
+    <!-- Reset Button -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnResetSeats"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="🔄  ಎಲ್ಲ ರಿಸೆಟ್ ಮಾಡಿ"
+        android:textColor="@color/colorTextSecondary"
+        android:textSize="13sp"
+        android:backgroundTint="@color/colorSurface"
+        android:layout_marginTop="8dp"/>
+
+</LinearLayout>

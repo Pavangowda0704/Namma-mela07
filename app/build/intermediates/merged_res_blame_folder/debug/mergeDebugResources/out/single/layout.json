@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_main.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_seat_map.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_seat_map.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_splash.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_manager.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_manager.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/dialog_book_seat.xml",
+        "source": "com.nammamela.app-main-50:/layout/dialog_book_seat.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_cast.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_cast.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/item_fan_comment.xml",
+        "source": "com.nammamela.app-main-50:/layout/item_fan_comment.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/activity_fan_wall.xml",
+        "source": "com.nammamela.app-main-50:/layout/activity_fan_wall.xml"
+    },
+    {
+        "merged": "com.nammamela.app-mergeDebugResources-47:/layout/item_seat.xml",
+        "source": "com.nammamela.app-main-50:/layout/item_seat.xml"
+    }
+]

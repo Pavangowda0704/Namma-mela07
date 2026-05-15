@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ನಮ್ಮ ಮೇಳ</string>
+    <string name="tonight_play">ಇಂದಿನ ನಾಟಕ</string>
+    <string name="cast_list">ನಟರ ಪಟ್ಟಿ</string>
+    <string name="seat_map">ಆಸನ ನಕ್ಷೆ</string>
+    <string name="fan_wall">ಫ್ಯಾನ್ ವಾಲ್</string>
+    <string name="manager_panel">ಮ್ಯಾನೇಜರ್ ಪ್ಯಾನಲ್</string>
+    <string name="book_seat">ಆಸನ ಬುಕ್ ಮಾಡಿ</string>
+    <string name="leave_applause">ಚಪ್ಪಾಳೆ ನೀಡಿ</string>
+    <string name="available">ಲಭ್ಯ</string>
+    <string name="booked">ಕಾಯ್ದಿರಿಸಲಾಗಿದೆ</string>
+    <string name="namma_mela_tagline">ನಾಟಕ ಪ್ರಿಯರ ಡಿಜಿಟಲ್ ಬಾಕ್ಸ್ ಆಫೀಸ್</string>
+</resources>
